@@ -14,11 +14,11 @@ body{
 
 #mainHeader img{
 	display: inline;
-	height: 50px;
-	width: 50px;
+	height: 20px;
+	width: 20px;
 	float: right;
 }
 
 #mainHeader h1{
-	color: black;
+	color: white;
 }
