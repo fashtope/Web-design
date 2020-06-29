@@ -1,0 +1,24 @@
+*{
+	font-family: arial;
+}
+
+body{
+	color: grey;
+	margin: 0.3em 10%;
+}
+
+#mainHeader{
+	height: 30%;
+	background-color: coral;
+}
+
+#mainHeader img{
+	display: inline;
+	height: 50px;
+	width: 50px;
+	float: right;
+}
+
+#mainHeader h1{
+	color: black;
+}
