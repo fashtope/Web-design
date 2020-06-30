@@ -1,10 +1,17 @@
-*{
-	font-family: arial;
+body{
+	background-color: grey;
+	color: black;
+	line-height: 1.6em;
+	font-size: 16px;
+	font-family: Arial;
+	margin: 30px;
 }
 
-body{
-	color: grey;
-	margin: 0.3em 10%;
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+
 }
 
 #mainHeader{
@@ -21,4 +28,29 @@ body{
 
 #mainHeader h1{
 	color: white;
+	text-align: center;
+}
+
+#navBar{
+	margin: 10px 0;
+	background-color: black;
+}
+
+#navBar li{
+	display: inline;
+	padding: 0 5px;
+	list-style: none;
+}
+
+#navBar a{
+	color: white;
+	text-decoration: none;
+}
+
+
+footer{
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin: auto;
 }
